@@ -2,6 +2,8 @@
 
 Submission for the [Hack:Now Covid19](https://hacknow.calhacks.io/) hackathon.
 
+![Logo](App/Images/logo.png)
+
 ## Status
 
 Right now, the app contains a mock-up of the final functions:
