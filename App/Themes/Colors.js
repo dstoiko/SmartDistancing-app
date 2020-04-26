@@ -1,0 +1,32 @@
+const colors = {
+  viewTop: '#0d4464',
+  viewBottom: '#2b265e',
+  tabBar: '#0d3555',
+  highlight: '#D5441C',
+  base: '#ffffff',
+  transparentBase: 'rgba(255,255,255,0.2)',
+  softBase: '#cfdbe2',
+  score1: '#47bf66',
+  score2: '#c8c8c8',
+  up: '#47bf66',
+  down: '#bd4848',
+  back: '#202b59',
+  status: '#0d4464',
+  purple: '#9562b8',
+  graph: '#5f4fc9',
+  transparentYellowBckg: 'rgba(236, 194, 102, 0.25)',
+  transparentBaseBckg: 'rgba(255, 255, 255, 0.10)',
+  base50: 'rgba(255, 255, 255, 0.5)',
+  red: '#C63015',
+  darkRed: '#A32812',
+  orange: '#FC9E4F',
+  green: '#6CAE75',
+  valid: '#5da65a',
+  facebookLogin: '#4267b2',
+  googleLogin: '#EA4335',
+  transparent: 'rgba(255,255,255,0)',
+  gray: '#BBC0C4',
+  darkGray: '#a9a9a9'
+}
+
+export default colors
