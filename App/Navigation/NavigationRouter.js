@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet } from 'react-native'
-import { Scene, Router, Stack, Actions } from 'react-native-router-flux'
+import { Scene, Router, Stack } from 'react-native-router-flux'
 
 import InitialScreen from '../Containers/InitialScreen'
 import DashboardScreen from '../Containers/DashboardScreen'
@@ -8,7 +8,6 @@ import DashboardScreen from '../Containers/DashboardScreen'
 import Colors from '../Themes/Colors'
 
 import { ifIphone, ifBigIphone } from '../Helpers/Platform'
-import analytics from '@react-native-firebase/analytics'
 
 const styles = StyleSheet.create({
   yellowNavBarTitle: {

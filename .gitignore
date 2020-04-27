@@ -49,23 +49,9 @@ package-lock.json
 # BUCK
 buck-out/
 \.buckd/
-#*.keystore
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
-
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
-android/app/fastlane-android-release*.json
 
 # Bundle artifact
 *.jsbundle
-
 
 # vscode stuff
 .vscode/
@@ -73,8 +59,8 @@ android/app/fastlane-android-release*.json
 # Environment variables to load
 .env
 
-# Firmware binaries
-App/Firmwares/*.bin
-
 # CocoaPods
 /ios/Pods/
+
+# Logcat logs copied
+*.log

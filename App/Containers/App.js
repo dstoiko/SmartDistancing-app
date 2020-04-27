@@ -3,7 +3,6 @@ import { View, StyleSheet, YellowBox, StatusBar, Platform } from 'react-native'
 
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
-import SplashScreen from 'react-native-splash-screen'
 
 import NavigationRouter from '../Navigation/NavigationRouter'
 import Loader from '../Components/Loader'
@@ -63,8 +62,6 @@ export default class App extends React.Component {
       'Warning: componentWillMount has been renamed',
       'VirtualizedLists should never be nested inside plain ScrollViews with the same orientation'
     ])
-
-    SplashScreen.hide()
   }
 
   render () {
