@@ -1,5 +1,7 @@
 # SmartDistancing App
 
+Make physical distancing smarter and easier. By using existing Bluetooth technology from your phone, the app detects if too many people are around you (<2m/6ft) for too long (>1mn) and sends you a notification. It also connects to a badge you can wear, which will signal people around you whether they are at a safe distance.
+
 Submission for the [Hack:Now Covid19](https://hacknow.calhacks.io/) hackathon.
 
 ![Logo](App/Images/logo.png)
